@@ -1,0 +1,4 @@
+export type RawExercise = { id: string; name: string; category: string; body_part: string; equipment: string; instructions: Record<string, string>; instruction_steps?: Record<string, string[]>; muscle_group: string; secondary_muscles: string[]; target: string; image: string; gif_url: string; attribution: string };
+export type CompactExercise = { id: string; name: string; category: string; equipment: string; target: string; secondary_muscles: string[]; steps_fr: string[]; image: string; gif_url: string; attribution: string };
+export type Exercise = { id: string; name: string; category: string; equipment: string; primaryMuscle: string; secondaryMuscles: string[]; steps: string[]; gif: string; image: string; attribution: string };
+export type Muscle = { id: string; label: string; datasetCategories: string[]; targets: string[]; modelParts: string[]; position: [number, number, number] };

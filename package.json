@@ -1,0 +1,15 @@
+{
+  "name": "muscle-3d",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": { "dev": "vite", "build": "tsc -b && vite build", "preview": "vite preview", "sync:dataset": "node scripts/sync-dataset.mjs" },
+  "dependencies": {
+    "@react-three/drei": "latest",
+    "@react-three/fiber": "latest",
+    "three": "latest",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": { "@types/node": "latest", "@types/react": "latest", "@types/react-dom": "latest", "@types/three": "latest", "@vitejs/plugin-react": "latest", "typescript": "latest", "vite": "latest" }
+}
