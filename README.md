@@ -53,6 +53,6 @@ Les composants tiers et leurs obligations sont détaillés dans [`NOTICE.md`](NO
 - Bundle Three.js séparé du premier chargement par import dynamique.
 - Rendu 3D à la demande, limité à 1× DPR sur écran tactile.
 - Ombres, environnement HDR et anticrénelage désactivés sur mobile.
-- 162 meshes secondaires de fascias/bourses masqués sur mobile, sans retirer les muscles interactifs.
+- Bourses, gaines synoviales et tissus internes inutiles masqués sur mobile, tout en conservant les fascias semi-transparents et les muscles interactifs.
 - Modèle GLB Draco de 8,4 Mo et dataset local compact de 1 Mo.
 - Layout mobile dédié avec contrôles tactiles, navigation collante et cartes horizontales.
