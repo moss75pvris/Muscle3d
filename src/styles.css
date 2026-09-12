@@ -11,3 +11,18 @@
 @media(max-width:390px){.bodyStage{height:470px}.media{height:220px}.copy h1{font-size:43px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card,.media img{transition:none}.canvas-fallback span{animation:none}}
 @media(max-width:800px){.bodyStage{width:110vw;margin-left:-5vw;margin-right:-5vw}}
+
+/* Keep square exercise GIFs inside the modal frame. Grid's automatic minimum
+   size otherwise stretches the image to the modal width and clips its bottom. */
+.detail .media{position:relative}
+.detail .media img{
+  position:absolute;
+  inset:0;
+  display:block;
+  width:100%;
+  height:100%;
+  min-width:0;
+  min-height:0;
+  object-fit:contain;
+  object-position:center;
+}
